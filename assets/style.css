@@ -20,6 +20,13 @@ button {
     font-weight: 600;
 }
 
+/* copy to clipboard */
+.copy {
+    font-size: 9px;
+    font-weight: 500;
+    color: navy;
+}
+
 /* option styles */
 .options {
     font-family: Helvetica, sans-serif;
