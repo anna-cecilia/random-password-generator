@@ -9,11 +9,11 @@ var symbolsEl = document.getElementById('symbols');
 var generateEl = document.getElementById('generate');
 var clipboardEl = document.getElementById('copy');
 
-var randomFunct = {
-    lower: getRandomLower,
-    upper: getRandomUpper,
-    number: getRandomNumber,
-    symbol: getRandomSymbol
+const randomFunc = {
+	lower: getRandomLower,
+	upper: getRandomUpper,
+	number: getRandomNumber,
+	symbol: getRandomSymbol,
 };
 
 // Generate
