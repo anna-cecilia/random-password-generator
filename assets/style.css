@@ -31,7 +31,6 @@ button {
 .options {
     font-family: Helvetica, sans-serif;
     letter-spacing: .02em;
-    text-transform: lowercase;
 }
 
 .container {
@@ -50,11 +49,22 @@ button {
     height: 55px;
 }
 
-.result-box.btn {
+.options {
+
+    align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+    .result-container {
+        font-size: 14px;
+    }
+}
+
+/* .result-box.btn {
     font-size: 20px;
     position: absolute;
     top: 5px;
     right: 5px;
     height: 40px;
     width: 40px;
-}
+} */
