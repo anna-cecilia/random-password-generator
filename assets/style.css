@@ -12,3 +12,11 @@ color: navy;
 body {
     background: lightskyblue;
   }
+
+/* generate button */
+button {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 600;
+}
+
