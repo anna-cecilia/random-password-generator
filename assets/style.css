@@ -25,6 +25,7 @@ button {
     font-size: 9px;
     font-weight: 500;
     color: navy;
+    margin: 10px;
 }
 
 /* option styles */
@@ -41,6 +42,7 @@ button {
 
 .result-box {
     background-color: rgb(26, 73, 143);
+    color: white;
     display: flex;
     align-items: center;
     position: relative;
