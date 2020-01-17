@@ -1,0 +1,8 @@
+/* alert banner */
+.alert-info {
+text-align: center;
+text-transform: uppercase;
+letter-spacing: .1em;
+font-size: 16px;
+font-weight: 600;
+}
