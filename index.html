@@ -1,80 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="css stylesheet" href="assets/style.css">
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="css stylesheet" href="assets/style.css" />
 
     <!-- Problem: Companies handle large amounts of sensitive data + need strong passwords to prevent security threats. Applications that generate strong passwords quickly + effortlessly can save employees time + ensure secure access.  -->
 
-
     <title>Random Password Generator</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- alert -->
     <div class="alert alert-info" role="alert">
-        Random Password Generator
+      Random Password Generator
     </div>
 
     <!-- instructions + input for password length -->
 
     <div class="container">
-
-        <!-- result block -->
-        <div class="result-box">
-            <span id="result"></span>
-            <button type="button" class="btn btn-light copy" id="copy">
-                Copy
-            </button>
-        </div>
-
-        <br>
-
-        <!-- min - max length  -->
-        <p>Choose from the options below to generate a random password.</p>
-        <div class="options">
-            <label>Password Length</label>
-            <input type="text" id="length" min='8' max='128' value='20' />
-        </div>
-
-
-        <!-- password options -->
-        <div class="element">
-            <label class="options">Uppercase</label>
-            <input type="checkbox" id="uppercase" checked />
-        </div>
-        <div class="element">
-            <label>Lowercase</label>
-            <input type="checkbox" id="lowercase" checked />
-        </div>
-        <div class="element">
-            <label>Numbers</label>
-            <input type="checkbox" id="numbers" checked />
-        </div>
-        <div class="element">
-            <label>Symbols</label>
-            <input type="checkbox" id="symbols" checked />
-        </div>
-
-        <br>
-
-        <!-- generate button -->
-        <button type="button" class="btn btn-light" id="generate">
-            Generate Password
+      <!-- result block -->
+      <div class="result-box">
+        <span id="result"></span>
+        <button type="button" class="btn btn-light copy" id="copy">
+          Copy
         </button>
+      </div>
+
+      <br />
+
+      <!-- min - max length  -->
+      <p>Choose from the options below to generate a random password.</p>
+      <div class="options">
+        <label>Password Length</label>
+        <input type="text" id="length" min="8" max="128" value="20" />
+      </div>
+
+      <!-- password options -->
+      <div class="element">
+        <label class="options">Uppercase</label>
+        <input type="checkbox" id="uppercase" checked />
+      </div>
+      <div class="element">
+        <label>Lowercase</label>
+        <input type="checkbox" id="lowercase" checked />
+      </div>
+      <div class="element">
+        <label>Numbers</label>
+        <input type="checkbox" id="numbers" checked />
+      </div>
+      <div class="element">
+        <label>Symbols</label>
+        <input type="checkbox" id="symbols" checked />
+      </div>
+
+      <br />
+
+      <!-- generate button -->
+      <button type="button" class="btn btn-light" id="generate">
+        Generate Password
+      </button>
     </div>
 
     <!-- Optional JavaScript -->
-    <script src="./assets/script.js"> </script>
+    <script src="./assets/script.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -87,6 +88,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script> -->
-</body>
-
+  </body>
 </html>

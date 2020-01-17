@@ -1,65 +1,75 @@
 /* alert banner */
 .alert-info {
-text-align: center;
-text-transform: uppercase;
-letter-spacing: .1em;
-font-size: 16px;
-font-weight: 600;
-color: navy;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  font-weight: 600;
+  color: navy;
 }
 
 /* background color */
 body {
-    background: lightskyblue;
-  }
+  background: lightskyblue;
+}
 
 /* generate button */
 button {
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
 }
 
 /* copy to clipboard */
 .copy {
-    font-size: 9px;
-    font-weight: 500;
-    color: navy;
-    margin: 10px;
+  font-size: 9px;
+  font-weight: 500;
+  color: navy;
+  margin: 10px;
 }
 
 /* option styles */
 .options {
-    font-family: Helvetica, sans-serif;
-    letter-spacing: .02em;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.02em;
 }
 
 .container {
-    padding: 10px;
-    width: 500px;
-    max-width: 100%;
+  padding: 10px;
+  width: 500px;
+  max-width: 100%;
 }
 
 .result-box {
-    background-color: rgb(26, 73, 143);
-    color: white;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: 15px;
-    width: 100%;
-    height: 55px;
+  background-color: rgb(26, 73, 143);
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+  width: 100%;
+  height: 150px;
+}
+span {
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for webkit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 .options {
-
-    align-items: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 400px) {
-    .result-container {
-        font-size: 14px;
-    }
+  .result-container {
+    font-size: 14px;
+  }
 }
 
 /* .result-box.btn {
